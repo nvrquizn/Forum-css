@@ -1,0 +1,59 @@
+/* ================== Clan Forum Thread CSS ================== */
+
+/* General body styling */
+body {
+    font-family: "Garamond", serif;
+    color: #333; /* dark gray for readability */
+    background: url('https://i.ibb.co/4n6MVY5x/Screenshot-2026-04-08-at-20-43-03.png') no-repeat center center; /* subtle imperial-style bg */
+    background-size: cover;
+    line-height: 1.5em;
+}
+
+/* Headers (H2, H3) */
+h2, h3 {
+    color: #d4af37; /* gold headers */
+    text-align: center;
+    border-bottom: 2px solid #d4af37;
+    padding-bottom: 5px;
+    margin: 20px 0 10px 0;
+}
+
+/* Paragraphs & text */
+p {
+    margin: 10px 0;
+}
+
+/* Links */
+a {
+    color: #4f94cd; /* subtle blue links */
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+/* Boxes for sections */
+.thread-section {
+    background-color: rgba(255, 255, 255, 0.85); /* slight transparency */
+    border: 2px solid #d4af37;
+    border-radius: 8px;
+    padding: 15px 20px;
+    margin: 20px auto;
+}
+
+/* Dividers between sections */
+.thread-divider {
+    height: 2px;
+    background-color: #d4af37;
+    margin: 15px 0;
+}
+
+/* Center all section content */
+.thread-section, .thread-section * {
+    text-align: center;
+}
+
+/* Hide any leftover credits */
+.credits, .pun-graphics, .credit-box {
+    display: none;
+}
